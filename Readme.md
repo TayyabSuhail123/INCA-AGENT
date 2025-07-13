@@ -63,3 +63,25 @@ Go to the **Actions** tab → select the **Terraform Destroy workflow** and run 
 
 
 Once the full infrastructure is up, you’ll receive the public URL to access the API and Swagger UI.
+Each repo contains further information about them in detail.
+
+
+## 🔍 AWS Console Access for Verification
+
+As part of the submission, you will also receive an IAM user named Inca-demo-user via the submission email with the following permissions:
+
+- **View ECS resources**: clusters, services, task definitions, and running tasks  
+- **Inspect networking**: VPC, subnets, security groups, and load balancers  
+- **Browse ECR**: view repo and latest image  
+- **Access logs**: view container logs via CloudWatch Logs
+
+✅ The IAM user is restricted to **read-only access**  
+✅ No infrastructure changes or deletions can be made  
+✅ Console login URL and temporary credentials will be provided
+
+### What you can do:
+- Log in to the AWS Console  
+- Verify that the infrastructure was created as expected  
+- Check service logs for the running API in **CloudWatch Logs**
+
+> This access is optional but provided for full transparency and auditability.
