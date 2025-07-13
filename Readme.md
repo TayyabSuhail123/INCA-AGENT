@@ -43,7 +43,7 @@ If the ECR repo does not exist, the API pipeline will fail.
 
 ### 🔧 To Run the Full Pipeline:
 
-1. Open the [`agent-runner-infra`](https://github.com/TayyabSuhail123/agent-runner-infra) repo  
+1. Open the [`agent-runner-infra`](https://github.com/TayyabSuhail123/python-aws-api) repo  
    - Go to the **Actions** tab → select the **Terraform CI/CD workflow**  
    - Run the workflow to create the ECR repo and the rest of the infrastructure
 
@@ -55,7 +55,7 @@ If the ECR repo does not exist, the API pipeline will fail.
 
 ## ⚠️ Important: Destroy Infra after Demo
 After demo is done please destroy all the Infra using the automated workflow Teraform Destroy.
-Open the [`agent-runner-infra`](https://github.com/TayyabSuhail123/agent-runner-infra) repo
+Open the [`agent-runner-infra`](https://github.com/TayyabSuhail123/python-aws-api) repo
 Go to the **Actions** tab → select the **Terraform Destroy workflow** and run the workflow to manually trigger Terraform Destroy.
 
 
