@@ -27,7 +27,7 @@ You don’t need to clone, fork, or configure anything.
 
 ✅ You already have **write access** to both repos  
 ✅ AWS credentials are securely injected via GitHub Secrets  
-✅ The IAM user used is **limited to ECR-only access** for demo purposes
+✅ The IAM user used is **limited to resource required** for demo purposes
 
 ---
 
