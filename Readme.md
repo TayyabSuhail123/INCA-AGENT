@@ -44,7 +44,8 @@ If the ECR repo does not exist, the API pipeline will fail.
 ### 🔧 To Run the Full Pipeline:
 
 1. Open the [`agent-runner-infra`](https://github.com/TayyabSuhail123/aws-ecr-fargate) repo  
-   - Go to the **Actions** tab → select the **Terraform CI/CD workflow**  
+   - Go to the **Actions** tab → select the **Terraform CI/CD workflow**  on the left bar
+   - Click the Run workflow dropdown select apply from the dropdown.
    - Run the workflow to create the ECR repo and the rest of the infrastructure
 
 2. While the infra is being provisioned (ECR repo is created almost instantly), open the [`python-aws-api`](https://github.com/TayyabSuhail123/aws-ecr-fargate) repo  
