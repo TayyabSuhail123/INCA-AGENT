@@ -14,7 +14,7 @@ This project is split into two focused repositories:
 
 ### 2. Infrastructure as Code
 
-**Repo:** [`agent-runner-infra`](https://github.com/TayyabSuhail123/aws-ecr-fargate)  
+**Repo:** [`aws-ecr-fargate`](https://github.com/TayyabSuhail123/aws-ecr-fargate)  
 **Contains:**  
 - Terraform modules for VPC, subnets, ECS Fargate, ECR, IAM roles, and ALB  
 - Secure state backend (S3 with state locking, using native S3 locking support in recent Terraform versions)
@@ -43,7 +43,7 @@ If the ECR repo does not exist, the API pipeline will fail.
 
 ### 🔧 To Run the Full Pipeline:
 
-1. Open the [`agent-runner-infra`](https://github.com/TayyabSuhail123/aws-ecr-fargate) repo  
+1. Open the [`aws-ecr-fargate`](https://github.com/TayyabSuhail123/aws-ecr-fargate) repo  
    - Go to the **Actions** tab → select the **Terraform CI/CD workflow**  on the left bar
    - Click the Run workflow dropdown select apply from the dropdown.
    - Run the workflow to create the ECR repo and the rest of the infrastructure
@@ -56,7 +56,7 @@ If the ECR repo does not exist, the API pipeline will fail.
 
 ## ⚠️ Important: Destroy Infra after Demo
 After demo is done please destroy all the Infra using the automated workflow Teraform Destroy.
-Open the [`agent-runner-infra`](https://github.com/TayyabSuhail123/agent-runner-infra) repo
+Open the [`aws-ecr-fargate`](https://github.com/TayyabSuhail123/agent-runner-infra) repo
 Go to the **Actions** tab → select the **Terraform Destroy workflow** and run the workflow to manually trigger Terraform Destroy.
 
 
